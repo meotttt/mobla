@@ -1,6 +1,5 @@
 import logging
 import nest_asyncio
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
 import json
 from html import escape
@@ -133,3 +132,4 @@ async def main() -> None:
 if __name__ == '__main__':
     import asyncio
     asyncio.run(main())
+
